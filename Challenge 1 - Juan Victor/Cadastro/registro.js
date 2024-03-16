@@ -31,5 +31,5 @@ function registerForm() {
   };
   localStorage.setItem(email, JSON.stringify(person));
 
-  return true;
+  window.location.href = "../Login/login.html";
 }

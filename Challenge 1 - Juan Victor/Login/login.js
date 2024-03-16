@@ -13,7 +13,7 @@ function loginForm() {
         password === profile.password)
     ) {
       alert("Acesso autorizado");
-      window.location.href = "http://127.0.0.1:5500/HomePag/home.html";
+      window.location.replace("http://127.0.0.1:5500/Cadastro/registro.html");
     } else {
       alert("User ou senha incorreto");
     }
