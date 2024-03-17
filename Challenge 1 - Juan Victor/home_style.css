@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+html body {
+  width: 1920px;
+  height: 1080px;
+}
+
+.container-all {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1920px;
+  height: 1080px;
+}
+
+header {
+  width: 1893px;
+  height: 169px;
+}
+header img {
+  position: absolute;
+  width: 150px;
+  height: 42.75px;
+  left: 40px;
+  top: 25px;
+
+  background: url(LogoCompasso.png);
+}
+
+.hora {
+  position: absolute;
+  width: 327px;
+  height: 169px;
+  left: 796px;
+  top: 0px;
+}
+.temperatura {
+  position: absolute;
+  width: 121px;
+  height: 78px;
+  left: 1758px;
+  top: 25px;
+}
+
+.temp {
+  position: absolute;
+  width: 121px;
+  height: 78px;
+  left: 1758px;
+  top: 25px;
+}
+
+.bola {
+  position: absolute;
+  width: 825px;
+  height: 825px;
+  left: -233px;
+  top: 232px;
+
+  background: url(bola-LogoCompasso.png);
+}
+
+.texto {
+  position: absolute;
+  width: 541px;
+  height: 58px;
+  left: 360px;
+  top: 1014px;
+
+  font-family: "Mark Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+
+  /* Primária  */
+  color: #ffffff;
+}
+footer {
+  position: absolute;
+  width: 1920px;
+  height: 100px;
+  left: 0px;
+  bottom: -1px;
+
+  background: linear-gradient(90deg, #212221 0%, #1c1d20 100%);
+}
+
+.line {
+  /* Line 4 */
+
+  position: absolute;
+  width: 61px;
+  height: 0px;
+  left: 930px;
+  top: 998px;
+
+  /* Primária  */
+  border: 1px solid #ffffff;
+  transform: rotate(90deg);
+}
+
+.refresh {
+  /* Application refresh in */
+
+  position: absolute;
+  width: 109px;
+  height: 49px;
+  left: 1053px;
+  top: 1013px;
+
+  font-family: "Mark Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+
+  /* Primária  */
+  color: #ffffff;
+}
+
+.nav {
+  /* Group 2 */
+
+  position: absolute;
+  width: 131px;
+  height: 99px;
+  left: 1661px;
+  top: 981px;
+}
+
+.logout {
+  /* Rectangle 6 */
+
+  position: relative;
+  width: 1920px;
+  height: 100px;
+  left: 0px;
+  bottom: -1px;
+
+  background: linear-gradient(90deg, #212221 0%, #1c1d20 100%);
+}

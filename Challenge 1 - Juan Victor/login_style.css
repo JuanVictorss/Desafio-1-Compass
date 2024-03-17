@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+html body {
+  width: 1920px;
+  height: 1080px;
+
+  /* Outros - grad */
+  background: linear-gradient(180deg, #33383d 0%, #1c1d20 100%);
+  box-shadow: 4px 4px 70px rgba(0, 0, 0, 0.25);
+}
+
+.container-all {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1920px;
+  height: 1080px;
+}
+
+.texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 1080px;
+  flex-direction: column;
+}
+
+.container-welcome {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+h1 {
+  position: absolute;
+  width: 273px;
+  height: 75px;
+  left: 287px;
+  top: 197px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 75px;
+
+  /* Secundária */
+  color: #e0e0e0;
+}
+
+h2 {
+  /* To continue browsing safely, log in to the network. */
+
+  position: absolute;
+  width: 301px;
+  height: 90px;
+  left: 287px;
+  top: 290px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  /* Secundária */
+  color: #e0e0e0;
+}
+
+h3 {
+  /* Login */
+
+  position: absolute;
+  width: 77px;
+  height: 38px;
+  left: 287px;
+  top: 477px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+
+  color: #e0e0e0;
+}
+
+.container-inputs {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 36px;
+  left: 238px;
+}
+
+.inputName {
+  box-sizing: border-box;
+  position: absolute;
+  margin-bottom: 18px;
+  width: 369px;
+  height: 60px;
+  margin-left: 10px;
+  top: 547px;
+  left: 285px;
+
+  background: #26292c;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  padding: 23px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #e0e0e0;
+}
+
+.inputPassword {
+  box-sizing: border-box;
+  position: absolute;
+  margin-bottom: 18px;
+  width: 369px;
+  height: 60px;
+  margin-left: 10px;
+  top: 640px;
+  left: 285px;
+
+  background: #26292c;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  padding: 23px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #e0e0e0;
+}
+
+button#login {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 379px;
+  height: 67px;
+  left: 285px;
+  top: 815px;
+
+  background: linear-gradient(90deg, #ff2d04 0%, #c13216 100%);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+
+  cursor: pointer;
+  color: #ffffff;
+}
+
+button#register {
+  position: absolute;
+  width: 379px;
+  height: 67px;
+  left: 285px;
+  top: 902px;
+
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.5));
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 379px;
+  height: 67px;
+  left: 285px;
+  bottom: 111px;
+
+  background: linear-gradient(90deg, #ff2d04 0%, #c13216 100%);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.error {
+  /* Wow, invalid username or password. Please, try again! */
+
+  position: absolute;
+  width: 283px;
+  height: 40px;
+  left: 333px;
+  top: 728px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+
+  /* Primaria  */
+  color: #e9b425;
+}
+
+img#user {
+  /* icon-user */
+
+  position: absolute;
+  left: 35.52%;
+  right: 63.44%;
+  top: 52.5%;
+  bottom: 45.65%;
+}
+
+img#pass {
+  position: absolute;
+  left: 35.52%;
+  right: 63.44%;
+  top: 60.83%;
+  bottom: 36.84%;
+}
