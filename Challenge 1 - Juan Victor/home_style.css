@@ -41,20 +41,52 @@ header img {
   left: 796px;
   top: 0px;
 }
-.temperatura {
+div#temperatura {
+  /* 22º */
+
   position: absolute;
-  width: 121px;
-  height: 78px;
-  left: 1758px;
-  top: 25px;
+  width: 75px;
+  height: 61px;
+  left: 1804px;
+  top: 42px;
+
+  font-family: "Mark Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 61px;
+  /* identical to box height */
+  text-align: center;
+
+  /* Secundária */
+  color: #222222;
 }
 
-.temp {
+div#cidade {
   position: absolute;
-  width: 121px;
-  height: 78px;
-  left: 1758px;
+  width: 119px;
+  height: 18px;
+  left: 1760px;
   top: 25px;
+
+  font-family: "Mark Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #222222;
+}
+
+img#simbolo {
+  /* 006-cloudy-1 1 */
+
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 1758px;
+  top: 55px;
 }
 
 .bola {

@@ -1,26 +1,19 @@
-// d12b340f5ce3cb28076cf964596a9656
-// Função para obter os dados do clima
-function getWeatherData(city) {
-  const apiKey = "d12b340f5ce3cb28076cf964596a9656"; // Substitua 'YOUR_API_KEY' pelo seu próprio API key da OpenWeather
-  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+const apiKey = "d12b340f5ce3cb28076cf964596a9656";
 
-  // Fazendo a requisição
-  fetch(apiUrl)
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error("Erro ao obter os dados do clima");
-      }
-      return response.json();
+function getTemperatura(cidade) {
+  const url = `http://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${apiKey}&units=metric`;
+  fetch(url)
+    .then((resp) => {
+      return resp.json();
     })
     .then((data) => {
-      // Atualizando a temperatura no HTML
-      const temperaturaElement = document.querySelector("h2");
-      temperaturaElement.textContent = `${data.main.temp}°C`;
-    })
-    .catch((error) => {
-      console.error("Erro:", error);
+      const temperatura = data.main.temp.toFixed(0);
+      const cidade = data.name;
+      const estado = data.sys.country;
+      document.getElementById("temperatura").innerHTML = temperatura + "º";
+      let local = cidade + " - " + estado;
+      document.getElementById("cidade").innerHTML = local;
     });
 }
-
-// Chamando a função para obter os dados do clima
-getWeatherData("Sua Cidade"); // Substitua 'Sua Cidade' pelo nome da cidade que deseja obter o clima
+const profile = JSON.parse(sessionStorage.getItem("profile"));
+getTemperatura(profile.city);
