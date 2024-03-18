@@ -9,7 +9,6 @@ html body {
   width: 1920px;
   height: 1080px;
 
-  /* Outros - grad */
   background: linear-gradient(180deg, #33383d 0%, #1c1d20 100%);
   box-shadow: 4px 4px 70px rgba(0, 0, 0, 0.25);
 }
@@ -52,13 +51,10 @@ h1 {
   font-size: 60px;
   line-height: 75px;
 
-  /* Secundária */
   color: #e0e0e0;
 }
 
 h2 {
-  /* To continue browsing safely, log in to the network. */
-
   position: absolute;
   width: 301px;
   height: 90px;
@@ -71,13 +67,10 @@ h2 {
   font-size: 16px;
   line-height: 20px;
 
-  /* Secundária */
   color: #e0e0e0;
 }
 
 h3 {
-  /* Login */
-
   position: absolute;
   width: 77px;
   height: 38px;
@@ -215,8 +208,6 @@ button#register {
 }
 
 .error {
-  /* Wow, invalid username or password. Please, try again! */
-
   position: absolute;
   width: 283px;
   height: 40px;
@@ -230,13 +221,10 @@ button#register {
   line-height: 20px;
   text-align: center;
 
-  /* Primaria  */
   color: #e9b425;
 }
 
 img#user {
-  /* icon-user */
-
   position: absolute;
   left: 35.52%;
   right: 63.44%;
