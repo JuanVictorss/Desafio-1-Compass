@@ -30,20 +30,43 @@ header img {
   height: 42.75px;
   left: 40px;
   top: 25px;
-
-  background: url(LogoCompasso.png);
 }
 
-.hora {
+div#hora {
   position: absolute;
   width: 327px;
-  height: 169px;
+  height: 146px;
   left: 796px;
   top: 0px;
+
+  font-family: "Mark Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 183px;
+  text-align: center;
+
+  color: #222222;
+}
+
+div#data {
+  position: absolute;
+  width: 220px;
+  height: 18px;
+  left: 849px;
+  top: 151px;
+
+  font-family: "Mark Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #222222;
 }
 div#temperatura {
-  /* 22º */
-
   position: absolute;
   width: 75px;
   height: 61px;
@@ -55,10 +78,8 @@ div#temperatura {
   font-weight: 700;
   font-size: 48px;
   line-height: 61px;
-  /* identical to box height */
   text-align: center;
 
-  /* Secundária */
   color: #222222;
 }
 
@@ -80,8 +101,6 @@ div#cidade {
 }
 
 img#simbolo {
-  /* 006-cloudy-1 1 */
-
   position: absolute;
   width: 34px;
   height: 34px;
@@ -95,8 +114,6 @@ img#simbolo {
   height: 825px;
   left: -233px;
   top: 232px;
-
-  background: url(bola-LogoCompasso.png);
 }
 
 .texto {
@@ -113,7 +130,6 @@ img#simbolo {
   line-height: 15px;
   text-align: right;
 
-  /* Primária  */
   color: #ffffff;
 }
 footer {
@@ -127,22 +143,17 @@ footer {
 }
 
 .line {
-  /* Line 4 */
-
   position: absolute;
   width: 61px;
   height: 0px;
   left: 930px;
   top: 998px;
 
-  /* Primária  */
   border: 1px solid #ffffff;
   transform: rotate(90deg);
 }
 
 .refresh {
-  /* Application refresh in */
-
   position: absolute;
   width: 109px;
   height: 49px;
@@ -156,13 +167,10 @@ footer {
   line-height: 18px;
   text-align: right;
 
-  /* Primária  */
   color: #ffffff;
 }
 
 .nav {
-  /* Group 2 */
-
   position: absolute;
   width: 131px;
   height: 99px;
@@ -171,8 +179,6 @@ footer {
 }
 
 .logout {
-  /* Rectangle 6 */
-
   position: relative;
   width: 1920px;
   height: 100px;
