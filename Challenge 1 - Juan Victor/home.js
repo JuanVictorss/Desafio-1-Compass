@@ -1,7 +1,7 @@
 const apiKey = "d12b340f5ce3cb28076cf964596a9656";
 
 function getTemperatura(cidade) {
-  const url = `http://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${apiKey}&units=metric`;
+  const url = `asdfasasdd`;
   fetch(url)
     .then((resp) => {
       return resp.json();
